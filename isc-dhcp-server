@@ -1,0 +1,3 @@
+# More stuff should go here...
+# On what interfaces should the DHCP server (dhcpd) serve DHCP requests?
+INTERFACES="wlan0"

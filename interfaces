@@ -1,0 +1,12 @@
+source /etc/network/interfaces.d/*
+
+# loopback
+auto lo
+iface lo inet loopback
+
+# wlan0 wifi interface
+allow-hotplug wlan0
+iface wlan0 inet static
+    address 192.168.10.1
+    netmask 255.255.255.0
+
