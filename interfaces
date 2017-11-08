@@ -4,6 +4,10 @@ source /etc/network/interfaces.d/*
 auto lo
 iface lo inet loopback
 
+# ethernet - auto
+auto eth0
+iface eth0 inet dhcp
+
 # wlan0 wifi interface
 allow-hotplug wlan0
 iface wlan0 inet static
